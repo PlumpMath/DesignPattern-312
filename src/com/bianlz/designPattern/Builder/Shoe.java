@@ -1,11 +1,11 @@
 package com.bianlz.designPattern.Builder;
 
 public class Shoe {
-	//Ğ¬´ø
+	//é‹å¸¦
 	private String shoelace;
-	//Ğ¬µ×
+	//é‹åº•
 	private String sole;
-	//Ğ¬Ãæ
+	//é‹é¢
 	private String vamp;
 	//LOGO
 	private String logo;
