@@ -5,9 +5,8 @@ public class Main {
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
 		Prototype vo = new Prototype();
-		for(int i=0;i<10;i++){
-			vo.clone();
-		}
+		vo.setName("protoType");
+		System.out.println(vo.clone().getName());
 	}
 
 }
