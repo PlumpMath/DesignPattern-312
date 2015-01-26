@@ -1,9 +1,9 @@
 package com.bianlz.designPattern.Builder;
 
 public interface Builder {
-	
-	void buildStepOne();
-	void buildStepTwo();
-	void buildStepThree();
-	public void getResult();
+	public void installShoelace();
+	public void installSole();
+	public void installVamp();
+	public void installLogo();
+	public Shoe getShoe();
 }
